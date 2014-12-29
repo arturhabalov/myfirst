@@ -51,3 +51,60 @@ a:hover.step4{background:url(images/menu4h.png) left top no-repeat;
 .input{
     width:180px; background:#e5eaf1; border:1px solid #5e8694; font:12px Tahoma; color:#000; padding:2px 5px;
 }
+.content-main{
+    width:100%;    
+}
+.nav{
+    width:255px;   
+}
+.links{
+    padding: 0 0 0 15px; margin: 0 0 20px 0;        
+}
+.links img{
+    margin:0 25px 0 0;        
+}
+.navigation{
+    list-style:none;    
+}
+.navigation li{
+    font:bold 13px Tahoma; color:#185e7f; margin: 0 0 15px 0;    
+}
+.navigation li a{
+    color:#185e7f; text-decoration:none;   
+}
+.navigation li a:hover{
+    color:#227ba5; text-decoration:underline;    
+}
+#catalog{
+    margin:0 0 30px 0;    
+    }    
+#select{
+    margin:-3px 0 10px 0; color:#7e8a8d; font: 11px Tahoma;
+    }
+a.selec{
+    font: 11px Tahoma; color:#2c748c; text-decoration:underline; padding:5px 5px 5px 7px;
+    }        
+a:hover.selec{
+    font: 11px Tahoma; color:#2c748c; text-decoration:none; padding:5px 5px 5px 7px;
+    }                        
+a.selec_activ{
+    font: 11px Tahoma; color:#666666; text-decoration:none; background:#ececec; padding:5px 5px 5px 7px;
+    }    
+#list_type a, #list_brands a{
+    font: 11px Tahoma; color:#7e8a8d; background:url(images/bgKatalog.gif) left center no-repeat; padding:0 0 0 12px; margin:0px 0 0px 20px; line-height:1.7;
+    }        
+#list_type a:hover, #list_brands a:hover{
+    font: 11px Tahoma; color:#7e8a8d; background:url(images/bgKatalog.gif) left center no-repeat; padding:0 0 0 12px; margin:0px 0 0px 20px; line-height:1.7; text-decoration:none;
+    }
+#list_brands div{
+    padding:0 0 10px 15px;
+    }
+.pricelist{
+    background:url(images/xls.jpg) left center no-repeat; font:10px Tahoma; color:#666666;  padding:0 0 0 45px; height:35px; margin:0; line-height:1.7;
+}
+.pricelist a{
+    font:bold 11px Tahoma; color:#185e7f;
+}
+.pricelist a:hover{
+    text-decoration:none;    
+}        
