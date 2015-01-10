@@ -7,6 +7,9 @@ img{
 td{
     vertical-align:top;
 }
+.clr{
+    clear:both;
+}
 .karkas-main{
     background:url(images/bglogo.jpg) left top no-repeat; max-width:1250px; margin:0 auto;  
 }
@@ -206,7 +209,7 @@ a:hover.archiv-news{
     width:33%; float:left; padding:20px 0 0 0;
 }
 .product-cat{
-    background:url(images/punctir1.jpg) right repeat-y; text-align:center;
+    background:url(images/punctir1.jpg) right repeat-y; text-align:center; padding:0 20px;
 }
 .product-cat img{
     display:block; margin:0 auto 10px auto; border:1px solid #d1d6de;
@@ -221,7 +224,7 @@ a:hover.archiv-news{
     height:2px; background:url(images/punctir.gif) left repeat-x; margin:20px 20px 0 20px;
 }
 .product-cat-third{
-    text-align:center;
+    text-align:center; padding:0 20px;
 }
 .product-cat-third img{
     display:block; margin:0 auto 10px auto; border:1px solid #d1d6de;
@@ -231,4 +234,19 @@ a:hover.archiv-news{
 }
 .product-cat-third a:hover{
     text-decoration:none;
+}
+.pager{
+    list-style:none; overflow:hidden; margin:30px 0 30px 270px;
+}
+.pager li{
+    float:left; margin:0 5px;
+}
+.pager li a{
+    display:block; text-align:center; background:url(images/bgPage.gif) no-repeat center center; width:31px; font:bold 14px  Tahoma; color:#fff; padding: 3px 0 5px 0;
+}
+.pager li a:hover{
+    text-decoration:none;
+}
+.pager li span{
+    display:block; text-align:center; background:url(images/bgPage.gif) no-repeat center center; width:31px; font:14px Tahoma; color:#fff; padding: 3px 0 5px 0;
 }
