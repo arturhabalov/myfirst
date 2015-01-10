@@ -193,3 +193,42 @@ a:hover.archiv-news{
 .copy a:hover{
     text-decoration:none;    
 }
+.kat_map{
+    color:#7e8a8d; font:11px Arial;
+}
+.kat_map a{
+    color:#185e7f;    
+}
+.kat_map a:hover{
+    text-decoration:none;    
+}
+.product-cat-main{
+    width:33%; float:left; padding:20px 0 0 0;
+}
+.product-cat{
+    background:url(images/punctir1.jpg) right repeat-y; text-align:center;
+}
+.product-cat img{
+    display:block; margin:0 auto 10px auto; border:1px solid #d1d6de;
+}
+.product-cat a{
+    font:11px Arial; color:#185e7f;
+}
+.product-cat a:hover{
+    text-decoration:none;
+}
+.border-bot{
+    height:2px; background:url(images/punctir.gif) left repeat-x; margin:20px 20px 0 20px;
+}
+.product-cat-third{
+    text-align:center;
+}
+.product-cat-third img{
+    display:block; margin:0 auto 10px auto; border:1px solid #d1d6de;
+}
+.product-cat-third a{
+    font:11px Arial; color:#185e7f;
+}
+.product-cat-third a:hover{
+    text-decoration:none;
+}
